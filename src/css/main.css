@@ -1,0 +1,21 @@
+
+.menu ul li:hover > ul {
+    
+    display: block !important; 
+    
+    
+    visibility: visible !important; 
+    opacity: 1 !important;
+}
+
+
+.menu ul li ul {
+    display: none !important; 
+    visibility: hidden !important; 
+    opacity: 0 !important; 
+}
+
+
+.menu ul li ul {
+    background: #fff; 
+}

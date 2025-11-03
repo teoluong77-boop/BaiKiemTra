@@ -1,0 +1,34 @@
+{
+  "name": "monan-vietnam-gdu",
+  "version": "1.0.0",
+  "description": "Bài kiểm tra giữa kỳ về Món ăn Việt Nam",
+  "keywords": [
+    "react",
+    "router",
+    "gdu",
+    "monan"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.20.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

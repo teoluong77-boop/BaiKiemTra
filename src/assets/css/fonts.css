@@ -1,0 +1,15 @@
+
+
+@font-face {
+  font-family: 'RobotoSlab-Regular';
+  src: url('../../assets/fonts/RobotoSlab-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Bold';
+  src: url('../../assets/fonts/RobotoSlab-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
