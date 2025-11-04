@@ -1,10 +1,10 @@
-// File: src/layouts/MenuTop.js (ĐÃ THÊM MỤC ADMIN VÀO MENU TOP)
+// File: src/layouts/MenuTop.js (ĐÃ THÊM MỤC ADMIN VÀ BỎ GẠCH CHÂN)
 
 import React from "react";
 import { Link } from "react-router-dom"; 
 
 const MenuTop = () => {
-  // Style áp dụng cho tất cả Link (lấy từ style bạn đã cung cấp)
+  // Style áp dụng cho tất cả Link (bỏ gạch chân và màu trắng)
   const linkStyle = { color: '#fff', padding: '0 10px', textDecoration: 'none' };
 
   return (
@@ -18,7 +18,7 @@ const MenuTop = () => {
         margin: 0 
       }}> 
         
-        {/* ✅ MỤC MỚI: QUẢN TRỊ ADMIN (ĐÃ THÊM) */}
+        {/* ✅ MỤC MỚI: QUẢN TRỊ ADMIN */}
         <li>
           <Link 
             to="/admin" 
@@ -32,7 +32,7 @@ const MenuTop = () => {
           </Link>
         </li>
         
-        {/* CÁC MỤC GỐC CÒN LẠI (GIỮ NGUYÊN) */}
+        {/* CÁC MỤC GỐC CÒN LẠI (ĐÃ SỬA LINK VÀ BỎ GẠCH CHÂN) */}
         <li><Link to="/trang1" style={linkStyle}>Danh sách Món ăn</Link></li>
         <li><Link to="/sanpham/1" style={linkStyle}>Chi tiết Món ăn</Link></li>
         <li><a target="_blank" href="https://www.youtube.com/watch?v=FjI6iHn9p4w" rel="noopener noreferrer" style={linkStyle}>Công thức Phở</a></li>
