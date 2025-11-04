@@ -1,10 +1,10 @@
-
+// File: src/layouts/MenuBox.js (ĐÃ SỬA LỖI GẠCH CHÂN VÀ MÀU CHỮ)
 
 import React from 'react';
 import { Link } from 'react-router-dom'; 
 
 const MenuBox = () => {
-    
+    // Style cho submenu (Buộc ẩn đi, position, và width TRẢI DÀI)
     const subMenuStyle = { 
         position: 'absolute', 
         display: 'none', 
@@ -18,22 +18,22 @@ const MenuBox = () => {
         boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
         padding: '0' 
     }; 
-    
+    // Style cho thẻ li Menu Bar (phải là relative và inline-block)
     const listItemStyle = { 
         position: 'relative', 
         display: 'inline-block', 
         margin: '0 5px' 
     }; 
     
-    
+    // ⚠️ STYLE MỚI: BỎ GẠCH CHÂN VÀ SỬA MÀU CHỮ MENU CHÍNH
     const mainLinkStyle = {
-        textDecoration: 'none', 
-        color: '#333', 
+        textDecoration: 'none', // BỎ GẠCH CHÂN
+        color: '#333', // ĐỔI MÀU CHỮ (hoặc #000)
         padding: '10px',
-        fontWeight: 'bold' 
+        fontWeight: 'bold' // Giữ in đậm
     };
     
-    
+    // Style cho Megamenu Container (Buộc hiển thị cột)
     const megamenuContainerStyle = {
         display: 'flex', 
         flexWrap: 'wrap', 
@@ -42,7 +42,7 @@ const MenuBox = () => {
         listStyle: 'none' 
     };
     
-    
+    // Style cho mục con trong Megamenu (25% = 4 cột)
     const subMenuItemStyle = { 
         width: '25%', 
         padding: '10px 15px', 
@@ -50,7 +50,7 @@ const MenuBox = () => {
         boxSizing: 'border-box'
     };
     
-    
+    // Style cho link trong submenu (Đảm bảo chữ rõ ràng)
     const subMenuLinkStyle = { 
         color: '#333', 
         fontSize: '14px',
